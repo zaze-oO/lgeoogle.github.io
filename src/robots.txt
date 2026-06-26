@@ -1,0 +1,33 @@
+# robots.txt — LGEOOGLE
+# Dernière mise à jour : 2026-06-26
+# Politique : ouvert à tous les crawlers IA légitimes
+
+# --- Crawlers de recherche IA (citations & visibilité) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# --- Google Search (indexation classique) ---
+User-agent: Googlebot
+Allow: /
+
+# --- Crawlers malveillants / agressifs ---
+User-agent: Bytespider
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+# Sitemap
+Sitemap: https://lgeoogle.fr/sitemap.xml

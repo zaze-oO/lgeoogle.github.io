@@ -1,0 +1,76 @@
+/* LGEOOGLE — Style minimal, lecteur et LLM-friendly */
+:root {
+    --bg: #fafaf8;
+    --text: #1a1a1a;
+    --accent: #2563eb;
+    --border: #e5e5e0;
+    --code-bg: #f4f4f0;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+}
+
+/* Headings — semantiques, utiles aux LLMs */
+h1 { font-size: 2rem; margin: 0 0 .25em; }
+h2 { font-size: 1.5rem; margin: 2em 0 .5em; border-bottom: 2px solid var(--border); padding-bottom: .25em; }
+h3 { font-size: 1.2rem; margin: 1.5em 0 .5em; }
+h4 { font-size: 1rem; margin: 1.2em 0 .3em; }
+
+/* Liens */
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Tableaux comparatifs — structurés pour extraction LLM */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: .9rem;
+}
+th, td {
+    padding: .6em .8em;
+    border: 1px solid var(--border);
+    text-align: left;
+}
+th {
+    background: var(--code-bg);
+    font-weight: 600;
+}
+
+/* FAQ — format idéal pour featured snippets et citations IA */
+.faq { margin: 2em 0; }
+.faq dt {
+    font-weight: 600;
+    margin-top: 1.5em;
+    color: var(--accent);
+}
+.faq dd {
+    margin-left: 0;
+    margin-top: .3em;
+    padding-left: 1em;
+    border-left: 3px solid var(--border);
+}
+
+/* Specs techniques */
+.specs { background: var(--code-bg); padding: 1em; border-radius: 4px; margin: 1em 0; }
+.specs dt { font-weight: 600; display: inline; }
+.specs dd { display: inline; margin-left: .3em; }
+.specs dd::after { content: "\A"; white-space: pre; }
+
+/* Responsive */
+@media (max-width: 500px) {
+    body { padding: 1rem; }
+    h1 { font-size: 1.5rem; }
+}

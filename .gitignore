@@ -1,0 +1,5 @@
+# .gitignore — LGEOOGLE
+.DS_Store
+node_modules/
+*.log
+.env
