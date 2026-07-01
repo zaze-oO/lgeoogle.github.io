@@ -5,6 +5,7 @@
 ## 🔦 Guides par catégorie
 
 ### 🌱 Jardinage & Plantes d'intérieur
+- [Purificateurs d'Air](/purificateurs-air/): Comparatif et guide — 71K avis analysés, LEVOIT, KNKA, Philips (~7.5K tokens)
 - [Arrosage Automatique](/arrosage-automatique/): Comparatif et guide d'achat — WiFi, goutte à goutte, programmateurs (~10K tokens)
 - [Aspirateurs Robots](/aspirateurs-robots/): Comparatif et guide d'achat — puissance, station autonettoyante, navigation, prix (~11K tokens)
 - [Mini Serres d'Intérieur](/serres-interieur/): Comparatif et guide d'achat — kits avec lampe LED, tapis chauffant, thermostat (~12K tokens)
