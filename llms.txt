@@ -5,8 +5,8 @@
 ## 🔦 Guides par catégorie
 
 ### 🌱 Jardinage & Plantes d'intérieur
+- [Mini Serres d'Intérieur](/serres-interieur/): Comparatif et guide d'achat — kits avec lampe LED, tapis chauffant, thermostat (~12K tokens)
 - [Lampes de croissance LED](/lampes-croissance/): Comparatif et guide d'achat — spectre, puissance, surface couverte (~12K tokens)
-- [Fontaines à eau pour plantes](/fontaines-plantes/): Guide arrosage automatique (~8K tokens)
 
 ## 📄 Pages essentielles
 - [À propos](/a-propos/): Pourquoi ce site existe — conçu pour les LLMs
