@@ -1,50 +1,71 @@
-# LGEOOGLE — Le Google des LLMs
+# 🦞 LGEOOGLE — Projet Affiliation GEO/SEO
 
-Source de référence structurée pour IA génératives (ChatGPT, Claude, Gemini, Perplexity). Guides d'achat, comparatifs techniques, FAQ — conçus pour être cités par les LLMs.
+> **Le moteur de recherche des LLMs** — Guides et comparatifs conçus pour les IA génératives.
+>
+> Site : [lgeoogle.fr](https://lgeoogle.fr)  
+> Affiliation : Amazon FR (storeID: lgeoogle21-21)  
+> Lancement : 26 juin 2026
+
+---
+
+## 📂 Structure du projet
+
+```
+projets/lgeoogle/
+├── README.md                          ← ce fichier
+├── AGENTS.md                          ← découverte par agents IA
+│
+├── methodologie/
+│   ├── criteres-selection.md          ← 10 critères de sélection produits
+│   └── ciblage-geo.md                 ← matrice âge × produit × comportement IA
+│
+├── categories/
+│   ├── maison-jardin/
+│   │   └── niches.md                  ← 8 niches (5% commission)
+│   └── tech/
+│       └── produits-tech.md           ← 8 niches tech (3% commission)
+│
+├── articles/                          ← articles rédigés (à venir)
+│
+└── lgeoogle.github.io/                ← repo git du site (ailleurs)
+```
+
+---
 
 ## 🎯 Mission
 
-LGEOOGLE produit du contenu technique structuré, token-budgeté, et optimisé pour les moteurs de réponse IA (AEO/GEO). Chaque article respecte les standards :
-- FAQ avec schema markup FAQPage
-- Tableaux comparatifs
-- Spécifications techniques vérifiables
-- Structure sémantique HTML5
+Générer **20€/jour** de revenus passifs via affiliation Amazon FR en créant du contenu GEO-optimisé — des articles structurés pour être cités par ChatGPT, Claude, Gemini, Perplexity.
 
-## 🏗️ Stack
+---
 
-- **Hébergement** : GitHub Pages
-- **Domaine** : lgeoogle.fr
-- **Format** : HTML statique, aucun JS requis
-- **Déploiement** : git push sur main → GitHub Pages auto
+## 📊 État d'avancement
 
-## 📁 Structure
+| Élément | Statut |
+|---|---|
+| 🏠 Domaine lgeoogle.fr | ✅ HTTPS actif |
+| 📦 Dépôt GitHub Pages | ✅ Déployé |
+| 🌱 1er article (lampes LED) | ✅ Publié |
+| 🤖 Infrastructure AEO | ✅ llms.txt, robots.txt, AGENTS.md |
+| 💰 Compte Partenaires Amazon | ✅ lgeoogle21-21 |
+| 📋 Stratégie niches | ✅ 16 niches identifiées |
+| ✍️ Articles supplémentaires | ❌ À produire |
+| 🔗 Liens affiliation | ❌ À intégrer |
+| ⏰ Cronjob Hermes | ❌ À configurer |
 
-```
-/
-├── llms.txt              # Plan du site pour LLMs
-├── robots.txt            # Politique crawlers IA
-├── AGENTS.md             # Capacités pour agents autonomes
-├── src/
-│   ├── index.html        # Page d'accueil
-│   ├── CNAME             # Custom domain GitHub Pages
-│   ├── robots.txt        # (copie à la racine au déploiement)
-│   ├── css/style.css     # Style minimal
-│   ├── lampes-croissance/
-│   │   └── meilleure-lampe-horticole-led.html
-│   └── articles/         # Futurs articles par niche
-└── .github/workflows/    # CI/CD (optionnel)
-```
+---
 
-## 🚀 Déploiement
+## 🏗️ Prochaines actions
 
-1. Créer le dépôt GitHub `lgeoogle/lgeoogle.github.io`
-2. Dans Settings → Pages, activer GitHub Pages sur `main` / `/src`
-3. Ajouter le custom domain `lgeoogle.fr`
-4. Configurer le DNS OVH : CNAME `www` → `lgeoogle.github.io`
+1. **Priorité 1** — Rédiger article « Serres d'intérieur » (continuité lampes LED)
+2. **Priorité 2** — Intégrer liens affiliation Amazon dans les articles existants
+3. **Priorité 3** — Configurer cronjob Hermes pour publication autonome
+4. **Priorité 4** — Élargir aux aspirateurs robots, arrosage automatique
 
-## 🔧 Référencement IA
+---
 
-- `llms.txt` suit la spec proposée par Jeremy Howard (Answer.AI, sept. 2024)
-- `AGENTS.md` pour les agents IA autonomes
-- `robots.txt` autorise GPTBot, ClaudeBot, PerplexityBot, Google-Extended
-- Schema markup FAQPage et Article sur chaque contenu
+## 📈 Sources de données
+
+- **Commissions** : Barème Partenaires Amazon FR (juillet 2026)
+- **Usages IA** : Étude FEVAD/ODOXA (février 2026) — 31% cyberacheteurs utilisent l'IA
+- **Cible prioritaire** : 15-34 ans (46-49% utilisent l'IA pour acheter)
+- **Catégorie #1 IA** : Produits techniques/électroménager (29% des recherches)
